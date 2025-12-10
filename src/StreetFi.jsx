@@ -2767,24 +2767,6 @@ export default function StreetFi() {
                         <div className="text-xs text-slate-500">Goals & projections</div>
                       </div>
                     </button>
-                    <button
-                      onClick={() => {
-                        setCurrentPage('withdrawal-strategy');
-                        setCalculatorsDropdownOpen(false);
-                      }}
-                      className={`w-full px-4 py-3 text-left text-sm transition-colors flex items-center space-x-3 ${
-                        currentPage === 'withdrawal-strategy'
-                          ? 'bg-blue-500/20 text-blue-400 border-l-2 border-blue-400'
-                          : 'text-slate-300 hover:bg-slate-700'
-                      }`}
-                    >
-                      <PiggyBank className="w-4 h-4" />
-                      <div>
-                        <div className="font-semibold">Withdrawal Strategy</div>
-                        <div className="text-xs text-slate-500">Retirement tax optimization</div>
-                      </div>
-                    </button>
-                    
                     <div className="px-3 py-2 text-xs font-semibold text-slate-400 uppercase border-t border-slate-700">Trading Tools</div>
                     <button
                       onClick={() => {
@@ -2801,23 +2783,6 @@ export default function StreetFi() {
                       <div>
                         <div className="font-semibold">Leverage Trading Calculator</div>
                         <div className="text-xs text-slate-500">P&L, sizing, risk & scenarios</div>
-                      </div>
-                    </button>
-                    <button
-                      onClick={() => {
-                        setCurrentPage('cost-analysis');
-                        setCalculatorsDropdownOpen(false);
-                      }}
-                      className={`w-full px-4 py-3 text-left text-sm transition-colors flex items-center space-x-3 ${
-                        currentPage === 'cost-analysis'
-                          ? 'bg-blue-500/20 text-blue-400 border-l-2 border-blue-400'
-                          : 'text-slate-300 hover:bg-slate-700'
-                      }`}
-                    >
-                      <DollarSign className="w-4 h-4" />
-                      <div>
-                        <div className="font-semibold">Cost Analysis Calculator</div>
-                        <div className="text-xs text-slate-500">Fees & funding rates</div>
                       </div>
                     </button>
                     <button
@@ -2854,23 +2819,6 @@ export default function StreetFi() {
                       <div>
                         <div className="font-semibold">Stock Sale Tax Calculator</div>
                         <div className="text-xs text-slate-500">Capital gains calculator</div>
-                      </div>
-                    </button>
-                    <button
-                      onClick={() => {
-                        setCurrentPage('83b-election');
-                        setCalculatorsDropdownOpen(false);
-                      }}
-                      className={`w-full px-4 py-3 text-left text-sm transition-colors flex items-center space-x-3 ${
-                        currentPage === '83b-election'
-                          ? 'bg-blue-500/20 text-blue-400 border-l-2 border-blue-400'
-                          : 'text-slate-300 hover:bg-slate-700'
-                      }`}
-                    >
-                      <FileText className="w-4 h-4" />
-                      <div>
-                        <div className="font-semibold">83(b) Election Calculator</div>
-                        <div className="text-xs text-slate-500">Restricted stock tax strategy</div>
                       </div>
                     </button>
                     <button
@@ -2924,23 +2872,6 @@ export default function StreetFi() {
                       <div>
                         <div className="font-semibold">Rental Property ROI</div>
                         <div className="text-xs text-slate-500">Cash flow & returns</div>
-                      </div>
-                    </button>
-                    <button
-                      onClick={() => {
-                        setCurrentPage('cost-seg');
-                        setCalculatorsDropdownOpen(false);
-                      }}
-                      className={`w-full px-4 py-3 text-left text-sm transition-colors flex items-center space-x-3 ${
-                        currentPage === 'cost-seg'
-                          ? 'bg-blue-500/20 text-blue-400 border-l-2 border-blue-400'
-                          : 'text-slate-300 hover:bg-slate-700'
-                      }`}
-                    >
-                      <Target className="w-4 h-4" />
-                      <div>
-                        <div className="font-semibold">Cost Segregation</div>
-                        <div className="text-xs text-slate-500">Accelerate depreciation</div>
                       </div>
                     </button>
                     <button
