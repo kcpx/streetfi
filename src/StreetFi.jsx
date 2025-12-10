@@ -3630,25 +3630,6 @@ export default function StreetFi() {
                   </span>
                 </button>
 
-                {/* Cost Analysis */}
-                <button
-                  onClick={() => setCurrentPage('cost-analysis')}
-                  className="bg-gradient-to-br from-red-500/10 to-pink-500/10 border border-red-500/20 rounded-xl p-6 hover:border-red-500/50 transition-all text-left group"
-                >
-                  <div className="flex items-center mb-4">
-                    <div className="p-3 bg-gradient-to-br from-red-500 to-pink-600 rounded-lg group-hover:scale-110 transition-transform">
-                      <DollarSign className="w-6 h-6" />
-                    </div>
-                    <h3 className="ml-3 text-xl font-bold text-white">Trading Cost Analysis</h3>
-                  </div>
-                  <p className="text-slate-300 text-sm mb-4">
-                    Calculate trading fees, funding rates, and total cost of leverage across different markets.
-                  </p>
-                  <span className="text-red-400 text-sm font-semibold group-hover:text-red-300">
-                    Launch Calculator →
-                  </span>
-                </button>
-
                 {/* Financial Planning */}
                 <button
                   onClick={() => setCurrentPage('planning')}
@@ -3956,23 +3937,6 @@ export default function StreetFi() {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-br from-green-500/5 to-emerald-500/5 border border-green-500/20 rounded-xl p-6">
-                  <div className="flex items-start space-x-4">
-                    <div className="text-3xl">💰</div>
-                    <div>
-                      <h3 className="text-lg font-bold mb-2">Property Owners (Tax Savings)</h3>
-                      <p className="text-sm text-slate-400 mb-3">
-                        Accelerate depreciation deductions and unlock massive tax savings with cost segregation analysis.
-                      </p>
-                      <button
-                        onClick={() => setCurrentPage('cost-seg')}
-                        className="text-sm text-green-400 hover:text-green-300 font-semibold"
-                      >
-                        Calculate Savings →
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -4965,10 +4929,10 @@ export default function StreetFi() {
                   Learn Key Terms →
                 </button>
                 <button
-                  onClick={() => setCurrentPage('cost-analysis')}
+                  onClick={() => setCurrentPage('leverage-trading')}
                   className="px-6 py-3 bg-slate-700 border border-slate-600 text-white font-semibold rounded-lg hover:bg-slate-600 transition-all"
                 >
-                  Calculate Fees →
+                  Leverage Calculator →
                 </button>
               </div>
             </div>
@@ -5351,16 +5315,15 @@ export default function StreetFi() {
                 <div className="flex items-start space-x-4">
                   <DollarSign className="w-8 h-8 text-orange-400 flex-shrink-0" />
                   <div>
-                    <h4 className="text-xl font-semibold text-orange-400 mb-2">Don't Forget Trading Costs!</h4>
+                    <h4 className="text-xl font-semibold text-orange-400 mb-2">Ready to Calculate Your Trade?</h4>
                     <p className="text-slate-300 mb-4">
-                      Fees, funding rates, and spreads can significantly impact your profits. Calculate the total cost 
-                      of your trade including all hidden fees.
+                      Use the Leverage Trading Calculator to model your full trade including P&L, liquidation prices, and risk scenarios.
                     </p>
-                    <button 
-                      onClick={() => setCurrentPage('cost-analysis')}
+                    <button
+                      onClick={() => setCurrentPage('leverage-trading')}
                       className="px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-all"
                     >
-                      Calculate Trading Costs →
+                      Leverage Trading Calculator →
                     </button>
                   </div>
                 </div>
@@ -16612,10 +16575,10 @@ export default function StreetFi() {
                   Rental Property ROI
                 </button>
                 <button
-                  onClick={() => setCurrentPage('cost-seg')}
+                  onClick={() => setCurrentPage('mortgage')}
                   className="px-6 py-3 bg-slate-800 border border-slate-600 rounded-lg font-semibold hover:bg-slate-700 transition-all"
                 >
-                  Cost Segregation
+                  Mortgage Calculator
                 </button>
                 <button
                   onClick={() => setCurrentPage('tax')}
@@ -26065,29 +26028,17 @@ export default function StreetFi() {
                 <button onClick={() => setCurrentPage('leverage-trading')} className="block w-full text-left text-slate-400 hover:text-white text-sm transition-colors">
                   Leverage Trading
                 </button>
-                <button onClick={() => setCurrentPage('cost-analysis')} className="block w-full text-left text-slate-400 hover:text-white text-sm transition-colors">
-                  Cost Analysis
-                </button>
                 <button onClick={() => setCurrentPage('stock-options')} className="block w-full text-left text-slate-400 hover:text-white text-sm transition-colors">
                   Stock Options & QSBS
                 </button>
                 <button onClick={() => setCurrentPage('stock-tax')} className="block w-full text-left text-slate-400 hover:text-white text-sm transition-colors">
                   Stock Sale Tax
                 </button>
-                <button onClick={() => setCurrentPage('83b-election')} className="block w-full text-left text-slate-400 hover:text-white text-sm transition-colors">
-                  83(b) Election
-                </button>
-                <button onClick={() => setCurrentPage('withdrawal-strategy')} className="block w-full text-left text-slate-400 hover:text-white text-sm transition-colors">
-                  Retirement Withdrawal
-                </button>
                 <button onClick={() => setCurrentPage('mortgage')} className="block w-full text-left text-slate-400 hover:text-white text-sm transition-colors">
                   Mortgage Calculator
                 </button>
                 <button onClick={() => setCurrentPage('rental')} className="block w-full text-left text-slate-400 hover:text-white text-sm transition-colors">
                   Rental Property ROI
-                </button>
-                <button onClick={() => setCurrentPage('cost-seg')} className="block w-full text-left text-slate-400 hover:text-white text-sm transition-colors">
-                  Cost Segregation
                 </button>
                 <button onClick={() => setCurrentPage('planning')} className="block w-full text-left text-slate-400 hover:text-white text-sm transition-colors">
                   Financial Planning
