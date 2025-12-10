@@ -629,7 +629,7 @@ export default function StreetFi() {
     landValue: 100000,
     studyCost: 5000,
     taxBracket: 35,
-    yearPlacedInService: 2024
+    yearPlacedInService: 2025
   });
 
   // Cost Segregation Calculation Function
@@ -1207,7 +1207,7 @@ export default function StreetFi() {
     const carryoverUsed = Math.min(capitalLossCarryover, Math.max(capitalGain, 0));
     const remainingCarryover = capitalLossCarryover - carryoverUsed;
     
-    // Federal tax rates for 2024
+    // Federal tax rates for 2025
     let federalTaxRate = 0;
     
     if (holdingPeriod === 'short') {
@@ -1685,7 +1685,7 @@ export default function StreetFi() {
     // Withdrawal from portfolio (after Social Security)
     const portfolioWithdrawalNeeded = Math.max(0, yearlyWithdrawalNeeded - totalAnnualSocialSecurity - (pensionMonthly * 12));
 
-    // Tax rates (simplified federal brackets for 2024)
+    // Tax rates (simplified federal brackets for 2025)
     const federalTaxRate = filingStatus === 'married' ? 
       (yearlyWithdrawalNeeded < 89075 ? 12 : yearlyWithdrawalNeeded < 190750 ? 22 : 24) :
       (yearlyWithdrawalNeeded < 44725 ? 12 : yearlyWithdrawalNeeded < 95375 ? 22 : 24);
@@ -3623,7 +3623,7 @@ export default function StreetFi() {
                     <h3 className="ml-3 text-xl font-bold text-white">Stock Sale Tax</h3>
                   </div>
                   <p className="text-slate-300 text-sm mb-4">
-                    Calculate capital gains taxes on stock sales with 2024 tax rates and optimize your selling strategy.
+                    Calculate capital gains taxes on stock sales with 2025 tax rates and optimize your selling strategy.
                   </p>
                   <span className="text-orange-400 text-sm font-semibold group-hover:text-orange-300">
                     Launch Calculator →
@@ -18750,7 +18750,7 @@ export default function StreetFi() {
                 </div>
                 <div className="grid md:grid-cols-2 gap-3">
                   <div className="bg-green-500/10 border border-green-500/20 rounded-lg p-3">
-                    <p className="text-xs font-semibold text-green-400">💰 Tax Rates 2024:</p>
+                    <p className="text-xs font-semibold text-green-400">💰 Tax Rates 2025:</p>
                     <ul className="text-xs mt-1 space-y-1">
                       <li>• <strong>Short-term:</strong> 10-37% (ordinary income)</li>
                       <li>• <strong>Long-term:</strong> 0%, 15%, or 20% (preferential)</li>
@@ -19173,7 +19173,7 @@ export default function StreetFi() {
               </div>
 
               <div className="bg-slate-800/30 border border-slate-700 rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4 text-blue-400">2024 Long-Term Rates</h3>
+                <h3 className="text-xl font-bold mb-4 text-blue-400">2025 Long-Term Rates</h3>
                 <div className="space-y-3 text-sm">
                   <div>
                     <div className="font-semibold text-white">0% Rate</div>
@@ -24114,7 +24114,7 @@ export default function StreetFi() {
                 ← Back to Home
               </button>
               <h1 className="text-4xl font-bold mb-4">Disclaimer</h1>
-              <p className="text-slate-400">Last updated: November 2024</p>
+              <p className="text-slate-400">Last updated: December 2025</p>
             </div>
 
             <div className="prose prose-invert prose-slate max-w-none">
@@ -24215,7 +24215,7 @@ export default function StreetFi() {
                 ← Back to Home
               </button>
               <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
-              <p className="text-slate-400">Last updated: November 2024</p>
+              <p className="text-slate-400">Last updated: December 2025</p>
             </div>
 
             <div className="prose prose-invert prose-slate max-w-none">
@@ -24330,7 +24330,7 @@ export default function StreetFi() {
                 ← Back to Home
               </button>
               <h1 className="text-4xl font-bold mb-4">Terms of Service</h1>
-              <p className="text-slate-400">Last updated: November 2024</p>
+              <p className="text-slate-400">Last updated: December 2025</p>
             </div>
 
             <div className="prose prose-invert prose-slate max-w-none">
@@ -24635,7 +24635,7 @@ export default function StreetFi() {
                     </p>
                     <p className="text-sm text-slate-300">
                       Can't buy the same or substantially identical security within 30 days before or after 
-                      the sale. This rule applies to stocks and options, but <strong>NOT to crypto</strong> (as of 2024).
+                      the sale. This rule applies to stocks and options, but <strong>NOT to crypto</strong> (as of 2025).
                     </p>
                   </div>
                   <div className="bg-green-500/10 border border-green-500/30 rounded-lg p-4">
@@ -24737,8 +24737,8 @@ export default function StreetFi() {
                         Contributions reduce taxable income NOW → pay tax later in retirement (presumably at lower rates)
                       </p>
                       <ul className="text-xs text-slate-400 space-y-1">
-                        <li>• 401(k) limit: $23,000 (2024)</li>
-                        <li>• IRA limit: $7,000 (2024)</li>
+                        <li>• 401(k) limit: $23,500 (2025)</li>
+                        <li>• IRA limit: $7,000 (2025)</li>
                         <li>• Immediate tax deduction</li>
                         <li>• Tax-deferred growth</li>
                       </ul>
@@ -24761,7 +24761,7 @@ export default function StreetFi() {
                         <strong>Triple tax advantage:</strong> Deductible contributions, tax-free growth, tax-free withdrawals for medical expenses
                       </p>
                       <ul className="text-xs text-slate-400 space-y-1">
-                        <li>• $4,150 single / $8,300 family (2024)</li>
+                        <li>• $4,300 single / $8,550 family (2025)</li>
                         <li>• After 65, withdraw for ANY reason</li>
                         <li>• Best retirement account if maxed out</li>
                       </ul>
@@ -24769,7 +24769,7 @@ export default function StreetFi() {
                     <div className="bg-orange-500/10 border border-orange-500/30 rounded-lg p-4">
                       <h5 className="font-semibold text-orange-400 mb-2">SEP IRA / Solo 401(k)</h5>
                       <p className="text-sm text-slate-300 mb-2">
-                        For self-employed traders, these allow MASSIVE contributions (up to $69,000 in 2024)
+                        For self-employed traders, these allow MASSIVE contributions (up to $70,000 in 2025)
                       </p>
                       <ul className="text-xs text-slate-400 space-y-1">
                         <li>• Shelter 25% of net SE income</li>
@@ -25146,7 +25146,7 @@ export default function StreetFi() {
                     (if itemizing). Only useful if your total itemized deductions exceed the standard deduction.
                   </p>
                   <div className="text-sm text-slate-400 mt-2 space-y-1">
-                    <p>• Standard deduction 2024: $13,850 (single) / $27,700 (married)</p>
+                    <p>• Standard deduction 2025: $15,000 (single) / $30,000 (married)</p>
                     <p>• Most taxpayers take standard deduction, so mortgage interest doesn't help</p>
                     <p>• More valuable in high-tax states (SALT + mortgage interest can exceed standard)</p>
                     <p>• HELOC interest may be deductible if used for home improvements</p>
@@ -25192,7 +25192,7 @@ export default function StreetFi() {
                     </p>
                   </div>
                   <div className="text-sm text-slate-400">
-                    <p><strong>Phase-out thresholds (2024):</strong></p>
+                    <p><strong>Phase-out thresholds (2025):</strong></p>
                     <p>• Begins at $191,950 (single) / $383,900 (married)</p>
                     <p>• Fully phases out at $241,950 (single) / $483,900 (married)</p>
                     <p>• Specified Service Trade or Business (SSTB) limitations apply above thresholds</p>
@@ -25295,7 +25295,7 @@ export default function StreetFi() {
                     <div className="bg-blue-500/10 border border-blue-500/30 rounded-lg p-4">
                       <h5 className="font-semibold text-blue-400 mb-2">Hiring Your Children</h5>
                       <ul className="text-sm text-slate-300 space-y-1">
-                        <li>• Pay them up to $14,600 (2024 standard deduction) - they pay $0 tax</li>
+                        <li>• Pay them up to $15,000 (2025 standard deduction) - they pay $0 tax</li>
                         <li>• Under 18: No FICA taxes if sole proprietorship</li>
                         <li>• Your business deducts the wages</li>
                         <li>• They can contribute to Roth IRA (tax-free growth forever!)</li>
@@ -25566,7 +25566,7 @@ export default function StreetFi() {
                   </div>
                   <div className="bg-green-500/10 border border-green-500/30 rounded-lg p-4">
                     <p className="text-sm text-slate-300">
-                      <strong>Income Limits (2024):</strong> Phases out between $80K-$95K (single) or $165K-$195K (married). 
+                      <strong>Income Limits (2025):</strong> Phases out between $80K-$95K (single) or $165K-$195K (married). 
                       For young traders with student debt, this deduction can save $550-$925/year in taxes.
                     </p>
                   </div>
