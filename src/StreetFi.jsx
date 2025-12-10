@@ -3685,12 +3685,9 @@ export default function StreetFi() {
                   <p className="text-slate-300 text-sm mb-4">
                     Defer capital gains taxes through like-kind property exchanges. Calculate tax savings and timeline requirements.
                   </p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-emerald-400 text-sm font-semibold group-hover:text-emerald-300">
-                      Launch Calculator →
-                    </span>
-                    <span className="text-xs text-slate-500 bg-slate-800/50 px-2 py-1 rounded">NEW</span>
-                  </div>
+                  <span className="text-emerald-400 text-sm font-semibold group-hover:text-emerald-300">
+                    Launch Calculator →
+                  </span>
                 </button>
               </div>
             </div>
@@ -3777,7 +3774,7 @@ export default function StreetFi() {
                   <div className="text-3xl mb-3">📊</div>
                   <h3 className="text-lg font-bold mb-2">Comprehensive Depth</h3>
                   <p className="text-sm text-slate-400">
-                    150+ terms, 11 modules, 6 calculators. From fundamental analysis to DeFi protocols—all in one place.
+                    150+ terms, 11 modules, 8 calculators. From fundamental analysis to DeFi protocols—all in one place.
                   </p>
                 </div>
 
@@ -5909,7 +5906,7 @@ export default function StreetFi() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Interest Rate:</span>
-                      <span className="text-white">~6-7% (2024)</span>
+                      <span className="text-white">~6-7% (2025)</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Loan Terms:</span>
@@ -5930,7 +5927,7 @@ export default function StreetFi() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Interest Rate:</span>
-                      <span className="text-white">~7-8% (2024)</span>
+                      <span className="text-white">~6-7% (2025)</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-slate-400">Strategy:</span>
@@ -6983,7 +6980,7 @@ export default function StreetFi() {
                 <div className="bg-slate-900/50 border border-red-500/30 rounded-lg p-6">
                   <h4 className="font-bold text-red-400 mb-3">Stat That Should Scare You:</h4>
                   <p className="text-slate-300 text-lg">
-                    <strong>$10 Billion+</strong> liquidated across crypto markets in Q2 2024 alone. That's real money from real people—gone in seconds.
+                    <strong>$10 Billion+</strong> liquidated across crypto markets in a single quarter. That's real money from real people—gone in seconds.
                   </p>
                 </div>
               </div>
@@ -7186,7 +7183,7 @@ export default function StreetFi() {
                     </div>
                     <div>
                       <p className="text-xs text-slate-400 mb-1">Interest Rate</p>
-                      <p className="text-white font-semibold">~11-13% (2024)</p>
+                      <p className="text-white font-semibold">~10-12% (2025)</p>
                     </div>
                     <div>
                       <p className="text-xs text-slate-400 mb-1">Repayment</p>
@@ -22640,7 +22637,7 @@ export default function StreetFi() {
               </div>
               <div className="mt-6 bg-blue-500/10 border border-blue-500/30 rounded-lg p-4">
                 <p className="text-sm text-blue-300">
-                  💡 <strong>Market Overview:</strong> Total DeFi TVL: ~$130B (Nov 2025). These protocols represent sector leaders 
+                  💡 <strong>Market Overview:</strong> Total DeFi TVL: ~$130B (Dec 2025). These protocols represent sector leaders 
                   with dominant market positions. Smart contract-based—you maintain custody but assume smart contract risk.
                 </p>
               </div>
